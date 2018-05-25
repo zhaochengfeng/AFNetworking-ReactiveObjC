@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		871D807F22EA73901D36E6A6 /* libPods-AFNetworking+ReactiveObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2AFE3F67130FDCED8A29B6D /* libPods-AFNetworking+ReactiveObjC.a */; };
+		A700D328442B6F3A867C21C4 /* libPods-AFNetworking+ReactiveObjCUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7403A619DC827F28F80FDBC3 /* libPods-AFNetworking+ReactiveObjCUITests.a */; };
 		E9BFFBCE20B805630036200E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BFFBCD20B805630036200E /* AppDelegate.m */; };
 		E9BFFBD120B805630036200E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BFFBD020B805630036200E /* ViewController.m */; };
 		E9BFFBD420B805630036200E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9BFFBD220B805630036200E /* Main.storyboard */; };
@@ -15,6 +17,9 @@
 		E9BFFBDC20B805640036200E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BFFBDB20B805640036200E /* main.m */; };
 		E9BFFBE620B805640036200E /* AFNetworking_ReactiveObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BFFBE520B805640036200E /* AFNetworking_ReactiveObjCTests.m */; };
 		E9BFFBF120B805640036200E /* AFNetworking_ReactiveObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BFFBF020B805640036200E /* AFNetworking_ReactiveObjCUITests.m */; };
+		E9BFFC2A20B80FB40036200E /* AFHTTPSessionManager+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BFFC2920B80FB40036200E /* AFHTTPSessionManager+RACSupport.m */; };
+		E9BFFC2D20B810F00036200E /* RACSubscriber+AFProgressCallbacks.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BFFC2C20B810F00036200E /* RACSubscriber+AFProgressCallbacks.m */; };
+		E9DC72FCF6E8480051C528EB /* libPods-AFNetworking+ReactiveObjCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B52FE5E66864F8789061D5 /* libPods-AFNetworking+ReactiveObjCTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07103CD2E2D3AB3EE6A48DE6 /* Pods-AFNetworking+ReactiveObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking+ReactiveObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking+ReactiveObjC/Pods-AFNetworking+ReactiveObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		6FB44386CE2830BBA9CB1C84 /* Pods-AFNetworking+ReactiveObjCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking+ReactiveObjCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking+ReactiveObjCTests/Pods-AFNetworking+ReactiveObjCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7403A619DC827F28F80FDBC3 /* libPods-AFNetworking+ReactiveObjCUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworking+ReactiveObjCUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		740BBF201F70E1DC61842F2B /* Pods-AFNetworking+ReactiveObjCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking+ReactiveObjCUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking+ReactiveObjCUITests/Pods-AFNetworking+ReactiveObjCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		82B52FE5E66864F8789061D5 /* libPods-AFNetworking+ReactiveObjCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworking+ReactiveObjCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3A78531059AAEE0EF09779 /* Pods-AFNetworking+ReactiveObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking+ReactiveObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking+ReactiveObjC/Pods-AFNetworking+ReactiveObjC.release.xcconfig"; sourceTree = "<group>"; };
+		D03869606F4F829DC5B443D6 /* Pods-AFNetworking+ReactiveObjCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking+ReactiveObjCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking+ReactiveObjCTests/Pods-AFNetworking+ReactiveObjCTests.release.xcconfig"; sourceTree = "<group>"; };
+		E2AFE3F67130FDCED8A29B6D /* libPods-AFNetworking+ReactiveObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworking+ReactiveObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9BFFBC920B805630036200E /* AFNetworking+ReactiveObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFNetworking+ReactiveObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9BFFBCC20B805630036200E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E9BFFBCD20B805630036200E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +64,12 @@
 		E9BFFBEC20B805640036200E /* AFNetworking+ReactiveObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFNetworking+ReactiveObjCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9BFFBF020B805640036200E /* AFNetworking_ReactiveObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworking_ReactiveObjCUITests.m; sourceTree = "<group>"; };
 		E9BFFBF220B805640036200E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9BFFC2820B80FB40036200E /* AFHTTPSessionManager+RACSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+RACSupport.h"; sourceTree = "<group>"; };
+		E9BFFC2920B80FB40036200E /* AFHTTPSessionManager+RACSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+RACSupport.m"; sourceTree = "<group>"; };
+		E9BFFC2B20B810F00036200E /* RACSubscriber+AFProgressCallbacks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RACSubscriber+AFProgressCallbacks.h"; sourceTree = "<group>"; };
+		E9BFFC2C20B810F00036200E /* RACSubscriber+AFProgressCallbacks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RACSubscriber+AFProgressCallbacks.m"; sourceTree = "<group>"; };
+		E9BFFC2E20B811650036200E /* RACAFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACAFNetworking.h; sourceTree = "<group>"; };
+		ECB36B63A5687965692C0D41 /* Pods-AFNetworking+ReactiveObjCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking+ReactiveObjCUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking+ReactiveObjCUITests/Pods-AFNetworking+ReactiveObjCUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				871D807F22EA73901D36E6A6 /* libPods-AFNetworking+ReactiveObjC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9DC72FCF6E8480051C528EB /* libPods-AFNetworking+ReactiveObjCTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +93,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A700D328442B6F3A867C21C4 /* libPods-AFNetworking+ReactiveObjCUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AC32DE8914941D82B8BFFF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07103CD2E2D3AB3EE6A48DE6 /* Pods-AFNetworking+ReactiveObjC.debug.xcconfig */,
+				8E3A78531059AAEE0EF09779 /* Pods-AFNetworking+ReactiveObjC.release.xcconfig */,
+				6FB44386CE2830BBA9CB1C84 /* Pods-AFNetworking+ReactiveObjCTests.debug.xcconfig */,
+				D03869606F4F829DC5B443D6 /* Pods-AFNetworking+ReactiveObjCTests.release.xcconfig */,
+				740BBF201F70E1DC61842F2B /* Pods-AFNetworking+ReactiveObjCUITests.debug.xcconfig */,
+				ECB36B63A5687965692C0D41 /* Pods-AFNetworking+ReactiveObjCUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		140A86155E08E06DD8B01053 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2AFE3F67130FDCED8A29B6D /* libPods-AFNetworking+ReactiveObjC.a */,
+				82B52FE5E66864F8789061D5 /* libPods-AFNetworking+ReactiveObjCTests.a */,
+				7403A619DC827F28F80FDBC3 /* libPods-AFNetworking+ReactiveObjCUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E9BFFBC020B805630036200E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +130,8 @@
 				E9BFFBE420B805640036200E /* AFNetworking+ReactiveObjCTests */,
 				E9BFFBEF20B805640036200E /* AFNetworking+ReactiveObjCUITests */,
 				E9BFFBCA20B805630036200E /* Products */,
+				0AC32DE8914941D82B8BFFF2 /* Pods */,
+				140A86155E08E06DD8B01053 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +148,7 @@
 		E9BFFBCB20B805630036200E /* AFNetworking+ReactiveObjC */ = {
 			isa = PBXGroup;
 			children = (
+				E9BFFC1A20B80E450036200E /* AFNetworking+ReactiveObjC */,
 				E9BFFBCC20B805630036200E /* AppDelegate.h */,
 				E9BFFBCD20B805630036200E /* AppDelegate.m */,
 				E9BFFBCF20B805630036200E /* ViewController.h */,
@@ -132,6 +180,18 @@
 			path = "AFNetworking+ReactiveObjCUITests";
 			sourceTree = "<group>";
 		};
+		E9BFFC1A20B80E450036200E /* AFNetworking+ReactiveObjC */ = {
+			isa = PBXGroup;
+			children = (
+				E9BFFC2E20B811650036200E /* RACAFNetworking.h */,
+				E9BFFC2820B80FB40036200E /* AFHTTPSessionManager+RACSupport.h */,
+				E9BFFC2920B80FB40036200E /* AFHTTPSessionManager+RACSupport.m */,
+				E9BFFC2B20B810F00036200E /* RACSubscriber+AFProgressCallbacks.h */,
+				E9BFFC2C20B810F00036200E /* RACSubscriber+AFProgressCallbacks.m */,
+			);
+			path = "AFNetworking+ReactiveObjC";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9BFFBF520B805640036200E /* Build configuration list for PBXNativeTarget "AFNetworking+ReactiveObjC" */;
 			buildPhases = (
+				4BDE5087C2C9B32C8952ACEF /* [CP] Check Pods Manifest.lock */,
 				E9BFFBC520B805630036200E /* Sources */,
 				E9BFFBC620B805630036200E /* Frameworks */,
 				E9BFFBC720B805630036200E /* Resources */,
@@ -156,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9BFFBF820B805640036200E /* Build configuration list for PBXNativeTarget "AFNetworking+ReactiveObjCTests" */;
 			buildPhases = (
+				AAA3D322B0A31C026B3E835F /* [CP] Check Pods Manifest.lock */,
 				E9BFFBDD20B805640036200E /* Sources */,
 				E9BFFBDE20B805640036200E /* Frameworks */,
 				E9BFFBDF20B805640036200E /* Resources */,
@@ -174,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9BFFBFB20B805640036200E /* Build configuration list for PBXNativeTarget "AFNetworking+ReactiveObjCUITests" */;
 			buildPhases = (
+				EDA3CCD30CBEACE4C0A056EB /* [CP] Check Pods Manifest.lock */,
 				E9BFFBE820B805640036200E /* Sources */,
 				E9BFFBE920B805640036200E /* Frameworks */,
 				E9BFFBEA20B805640036200E /* Resources */,
@@ -257,13 +320,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4BDE5087C2C9B32C8952ACEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFNetworking+ReactiveObjC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAA3D322B0A31C026B3E835F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFNetworking+ReactiveObjCTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDA3CCD30CBEACE4C0A056EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFNetworking+ReactiveObjCUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E9BFFBC520B805630036200E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9BFFC2A20B80FB40036200E /* AFHTTPSessionManager+RACSupport.m in Sources */,
 				E9BFFBD120B805630036200E /* ViewController.m in Sources */,
 				E9BFFBDC20B805640036200E /* main.m in Sources */,
+				E9BFFC2D20B810F00036200E /* RACSubscriber+AFProgressCallbacks.m in Sources */,
 				E9BFFBCE20B805630036200E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +553,7 @@
 		};
 		E9BFFBF620B805640036200E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07103CD2E2D3AB3EE6A48DE6 /* Pods-AFNetworking+ReactiveObjC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +570,7 @@
 		};
 		E9BFFBF720B805640036200E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3A78531059AAEE0EF09779 /* Pods-AFNetworking+ReactiveObjC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,6 +587,7 @@
 		};
 		E9BFFBF920B805640036200E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB44386CE2830BBA9CB1C84 /* Pods-AFNetworking+ReactiveObjCTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +606,7 @@
 		};
 		E9BFFBFA20B805640036200E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D03869606F4F829DC5B443D6 /* Pods-AFNetworking+ReactiveObjCTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +625,7 @@
 		};
 		E9BFFBFC20B805640036200E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740BBF201F70E1DC61842F2B /* Pods-AFNetworking+ReactiveObjCUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "AFNetworking+ReactiveObjCUITests/Info.plist";
@@ -516,6 +643,7 @@
 		};
 		E9BFFBFD20B805640036200E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECB36B63A5687965692C0D41 /* Pods-AFNetworking+ReactiveObjCUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "AFNetworking+ReactiveObjCUITests/Info.plist";
