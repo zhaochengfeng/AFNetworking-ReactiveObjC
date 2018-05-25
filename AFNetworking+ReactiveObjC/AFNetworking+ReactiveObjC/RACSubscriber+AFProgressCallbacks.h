@@ -7,7 +7,7 @@
 //
 #ifdef RAFN_EXPERIMENTAL_PROGRESS_SUPPORT
 
-#import "RACSubscriber+Private.h"
+#import <ReactiveObjC/ReactiveObjC.h>
 
 @interface RACSubscriber (AFProgressCallbacks)
 
