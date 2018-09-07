@@ -16,8 +16,6 @@
 		E9BFFBDC20B805640036200E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BFFBDB20B805640036200E /* main.m */; };
 		E9BFFBE620B805640036200E /* AFNetworking_ReactiveObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BFFBE520B805640036200E /* AFNetworking_ReactiveObjCTests.m */; };
 		E9BFFBF120B805640036200E /* AFNetworking_ReactiveObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BFFBF020B805640036200E /* AFNetworking_ReactiveObjCUITests.m */; };
-		E9BFFC2A20B80FB40036200E /* AFHTTPSessionManager+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BFFC2920B80FB40036200E /* AFHTTPSessionManager+RACSupport.m */; };
-		E9BFFC2D20B810F00036200E /* RACSubscriber+AFProgressCallbacks.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BFFC2C20B810F00036200E /* RACSubscriber+AFProgressCallbacks.m */; };
 		E9DC72FCF6E8480051C528EB /* libPods-AFNetworking+ReactiveObjCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B52FE5E66864F8789061D5 /* libPods-AFNetworking+ReactiveObjCTests.a */; };
 /* End PBXBuildFile section */
 
@@ -62,11 +60,6 @@
 		E9BFFBEC20B805640036200E /* AFNetworking+ReactiveObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFNetworking+ReactiveObjCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9BFFBF020B805640036200E /* AFNetworking_ReactiveObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworking_ReactiveObjCUITests.m; sourceTree = "<group>"; };
 		E9BFFBF220B805640036200E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9BFFC2820B80FB40036200E /* AFHTTPSessionManager+RACSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+RACSupport.h"; sourceTree = "<group>"; };
-		E9BFFC2920B80FB40036200E /* AFHTTPSessionManager+RACSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+RACSupport.m"; sourceTree = "<group>"; };
-		E9BFFC2B20B810F00036200E /* RACSubscriber+AFProgressCallbacks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RACSubscriber+AFProgressCallbacks.h"; sourceTree = "<group>"; };
-		E9BFFC2C20B810F00036200E /* RACSubscriber+AFProgressCallbacks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RACSubscriber+AFProgressCallbacks.m"; sourceTree = "<group>"; };
-		E9BFFC2E20B811650036200E /* RACAFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACAFNetworking.h; sourceTree = "<group>"; };
 		ECB36B63A5687965692C0D41 /* Pods-AFNetworking+ReactiveObjCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking+ReactiveObjCUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking+ReactiveObjCUITests/Pods-AFNetworking+ReactiveObjCUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,7 +139,6 @@
 		E9BFFBCB20B805630036200E /* AFNetworking+ReactiveObjC */ = {
 			isa = PBXGroup;
 			children = (
-				E9BFFC1A20B80E450036200E /* AFNetworking+ReactiveObjC */,
 				E9BFFBCC20B805630036200E /* AppDelegate.h */,
 				E9BFFBCD20B805630036200E /* AppDelegate.m */,
 				E9BFFBCF20B805630036200E /* ViewController.h */,
@@ -175,18 +167,6 @@
 				E9BFFBF220B805640036200E /* Info.plist */,
 			);
 			path = "AFNetworking+ReactiveObjCUITests";
-			sourceTree = "<group>";
-		};
-		E9BFFC1A20B80E450036200E /* AFNetworking+ReactiveObjC */ = {
-			isa = PBXGroup;
-			children = (
-				E9BFFC2E20B811650036200E /* RACAFNetworking.h */,
-				E9BFFC2820B80FB40036200E /* AFHTTPSessionManager+RACSupport.h */,
-				E9BFFC2920B80FB40036200E /* AFHTTPSessionManager+RACSupport.m */,
-				E9BFFC2B20B810F00036200E /* RACSubscriber+AFProgressCallbacks.h */,
-				E9BFFC2C20B810F00036200E /* RACSubscriber+AFProgressCallbacks.m */,
-			);
-			path = "AFNetworking+ReactiveObjC";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -378,10 +358,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9BFFC2A20B80FB40036200E /* AFHTTPSessionManager+RACSupport.m in Sources */,
 				E9BFFBD120B805630036200E /* ViewController.m in Sources */,
 				E9BFFBDC20B805640036200E /* main.m in Sources */,
-				E9BFFC2D20B810F00036200E /* RACSubscriber+AFProgressCallbacks.m in Sources */,
 				E9BFFBCE20B805630036200E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,8 +6,7 @@ target 'AFNetworking+ReactiveObjC' do
   # use_frameworks!
 
   # Pods for AFNetworking+ReactiveObjC
-  pod 'ReactiveObjC'
-  pod 'AFNetworking'
+  pod 'RACAFNetworking', '~>2.0'
   
   target 'AFNetworking+ReactiveObjCTests' do
     inherit! :search_paths
